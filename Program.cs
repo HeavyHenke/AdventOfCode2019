@@ -14,7 +14,7 @@ namespace AdventOfCode2019
         static void Main()
         {
             DateTime start = DateTime.Now;
-            string result = new Day5().CalcA();
+            string result = new Day6().CalcA();
             DateTime stop = DateTime.Now;
 
             Console.WriteLine("It took " + (stop - start).TotalSeconds);
@@ -24,7 +24,7 @@ namespace AdventOfCode2019
         }
     }
 
-    class Day5
+    class Day6
     {
         public string CalcA()
         {
