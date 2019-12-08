@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 using MoreLinq;
 using static System.Math;
 
@@ -15,7 +17,7 @@ namespace AdventOfCode2019
         static void Main()
         {
             DateTime start = DateTime.Now;
-            string result = new Day7().CalcB();
+            string result = new Day9().CalcA();
             DateTime stop = DateTime.Now;
 
             Console.WriteLine("It took " + (stop - start).TotalSeconds);
@@ -23,6 +25,15 @@ namespace AdventOfCode2019
             Clipboard.SetText(result);
             Console.WriteLine(result);
         }
+
+        public class Day9
+        {
+            public string CalcA()
+            {
+                return " ";
+            }
+        }
+        
 
     }
 }
