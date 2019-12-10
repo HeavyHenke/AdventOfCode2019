@@ -10,7 +10,6 @@ namespace AdventOfCode2019
 
             int maxValue = int.MinValue;
             var maxPhase = new int[5];
-            int numRuns = 0;
 
             var phaseSetting = new int[5];
             for (int a = 0; a < 5; a++)
@@ -164,7 +163,6 @@ namespace AdventOfCode2019
 
             int maxValue = int.MinValue;
             var maxPhase = new int[5];
-            int numRuns = 0;
 
             var phaseSetting = new int[5];
             for (int a = 5; a < 10; a++)

@@ -2,6 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Linq.Expressions;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -25,15 +28,13 @@ namespace AdventOfCode2019
             Clipboard.SetText(result);
             Console.WriteLine(result);
         }
+    }
 
-        public class Day9
+    class Day9
+    {
+        public string CalcA()
         {
-            public string CalcA()
-            {
-                return " ";
-            }
+            return " ";
         }
-        
-
     }
 }
