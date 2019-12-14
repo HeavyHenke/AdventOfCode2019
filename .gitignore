@@ -4,8 +4,8 @@
 
 *.suo
 /.vs
-/obj/Debug
-/bin/Debug
 .idea
 /AdventOfCode2019.csproj.DotSettings
 *.user
+/bin
+/obj
