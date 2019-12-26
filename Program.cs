@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Globalization;
+using System.Linq;
 using System.Linq.Expressions;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -17,7 +18,7 @@ namespace AdventOfCode2019
         static void Main()
         {
             DateTime start = DateTime.Now;
-            string result = new Day15().CalcA()?.ToString() ?? " ";
+            string result = new Day16().CalcA()?.ToString() ?? " ";
             DateTime stop = DateTime.Now;
 
             Console.WriteLine("It took " + (stop - start).TotalSeconds);
@@ -27,8 +28,7 @@ namespace AdventOfCode2019
         }
     }
 
-
-    class Day15
+    class Day16
     {
         public object CalcA()
         {
